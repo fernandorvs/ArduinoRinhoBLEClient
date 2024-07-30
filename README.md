@@ -1,5 +1,5 @@
 
-# Cliente BLE SPP Rinho
+# Rinho BLE Client
 
 Este proyecto es un terminal serial para conectarse a los dispositivos Rinho Telematics, específicamente al [Rinho Spider IoT](https://www.rinho.com.ar/productos/rinho-spider-iot) y [Rinho Smart IoT](https://www.rinho.com.ar/productos/rinho-smart-iot). Utiliza los UUID de Nordic para la comunicación BLE y hace uso de la biblioteca NimBLE para una gestión eficiente de Bluetooth Low Energy.
 
