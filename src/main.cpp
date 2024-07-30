@@ -37,11 +37,12 @@ class AdvertisedDeviceCallbacks : public NimBLEAdvertisedDeviceCallbacks {
         Serial.print("Idx: ");
         Serial.print(foundDevices.size() - 1);
         Serial.print(", Dirección: ");
-        Serial.println(advertisedDevice->getAddress().toString().c_str());
+        Serial.print(advertisedDevice->getAddress().toString().c_str());
         if (advertisedDevice->haveName()) {
             Serial.print(", Nombre: ");
             Serial.print(advertisedDevice->getName().c_str());
         }
+        Serial.println();
     }
 };
 
