@@ -5,7 +5,7 @@ Este proyecto es un terminal serial para conectarse a los dispositivos Rinho Tel
 
 ## Descripción
 
-El Cliente BLE SPP Rinho permite la conexión a dispositivos Rinho Telematics a través de BLE (Bluetooth Low Energy). El propósito principal es proporcionar una interfaz de terminal serial que facilite la comunicación con estos dispositivos para enviar comandos y recibir datos.
+El Cliente BLE SPP Rinho permite la conexión a dispositivos Rinho Telematics a través de BLE (Bluetooth Low Energy). El propósito principal es proporcionar una interfaz de terminal serial que facilite la comunicación con estos dispositivos para enviar comandos y recibir datos. Esta aplicación está diseñada para montarse en un ESP32 con Arduino, permitiendo que funcione como un puerto serial más a USB.
 
 ## Dispositivos Soportados
 
@@ -26,6 +26,8 @@ Para configurar tu entorno de desarrollo con PlatformIO y NimBLE, sigue estos pa
 
 1. **Abrir el archivo `platformio.ini` en tu proyecto.**
 2. **Agregar la dependencia de la biblioteca NimBLE.**
+
+Para más información sobre cómo configurar PlatformIO, puedes visitar la [documentación oficial de PlatformIO](https://docs.platformio.org/en/latest/).
 
 Tu archivo `platformio.ini` debería verse así:
 
